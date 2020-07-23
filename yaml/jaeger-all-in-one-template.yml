@@ -73,7 +73,7 @@ items:
       traefik.frontend.rule.type: PathPrefixStrip
   spec:
     rules:
-    - host: kubetest-jaeger.matrix.netease.com
+    - host: kubetest-jaeger.matrix.lee.com
       http:
         paths:
         - path: /
