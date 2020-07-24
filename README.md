@@ -10,4 +10,5 @@ jaeger https://github.com/jaegertracing/jaeger
 
 ## 实现
 通过在请求头等注入traceID和spanID等信息发送到下游服务，在下游服务抽取请求头中相关信息，从而实现对两个服务之间的调用关系形成依赖
+
 具体实现可以参考https://github.com/opentracing/opentracing-go
